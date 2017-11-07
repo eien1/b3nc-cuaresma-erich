@@ -31,7 +31,7 @@
 - Styles
 - Font
 - Class
-
+<!-- sdsdd -->
 ### Which statement uses a correct CSS syntax?
 - {body;color:black;}
 - **body {color: black;}**
@@ -51,6 +51,7 @@
 - #h1 {background-color: #FFFFFF;}
 
 ### How do you select an element with id "demo"?
+
 - *demo
 - .demo
 - **#demo**
@@ -99,12 +100,14 @@
 
 #### Selector:a, h1
 
-#### Declaration:a, h1{}
+#### Declaration:a, h1{font-weight: bold;
+	    			  color: grey; 
+	    		      }
 	
 #### Property Name: font-weight , color
 
-#### Property Value: bold, color
-
+#### Property Value: bold, grey
+`
 #### Declaration block: {}
 
 ### (5 pts) Determine the specificity value for each selectors below:
