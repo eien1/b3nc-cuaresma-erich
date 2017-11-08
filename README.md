@@ -10,6 +10,6 @@ This is my first feedback.
 
 
 ## 2017-11-08
-### Choose your own topic
-Provide your feedback.
-Provude  your second feedback.
+### CCS
+I learn a lot in our css lectures,
+I know now how to design my website to be more attractive to the users.
