@@ -51,3 +51,12 @@ alert(s);
 :zap:
 
 :v:
+
+
+## tables
+
+| fisrstname | last name |
+|:-----------|:----------|
+| cuaresma   | erich     |
+| allas      | jan       |
+| cuaresma   | lloyd     |
