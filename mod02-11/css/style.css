@@ -1,0 +1,134 @@
+
+.blackcontainer{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+}
+
+.blackcontainer3{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+
+}
+
+
+.greyboxes {
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+	float: left;
+	margin: 10px 1.16%;
+	position: relative;
+}
+
+.greyboxes3 {
+	margin-right: 10px;
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+	float: left;
+	position: relative;
+}
+
+.greyboxes5 {
+	margin-right: 5px;
+	height: 40px;
+	width: 40px;
+	background-color: grey;
+	float: left;
+	position: relative;
+}
+
+.greyboxes7 {
+	margin-right: 5px;
+	height: 150px;
+	width: 300px;
+	background-color: grey;
+	float: left;
+}
+
+.greyboxes8 {
+	margin-right: 5px;
+	height: 150px;
+	width: 265px;
+	background-color: grey;
+	float: left;
+	position: relative;
+}
+
+.white-board-container{
+	border: 2px solid white;
+	height: 150px;
+	width: 150px;
+	padding: 10px 10px 10px 50px;
+
+}
+
+
+.clear:after {
+	content: "";  /* empty string or invisible element */
+	clear: both;
+	display: block;
+}
+
+h1, p, h2{
+	color: white;
+}
+
+textarea{
+	float: left;
+	height: 120px;
+	width: 520px;
+}
+
+.buttons{
+	margin-top: 10px;
+	float: right
+
+
+}
+
+.d8 {
+		float: left;
+}
+
+.d8 h2, .d8 p{
+	margin-top: 5px;
+	line-height: 2px;
+	margin-right: 50px;
+}
+
+.d8 p{
+	color: grey;
+}
+
+
+.format{
+	font-size: 12px;
+}
+
+.box1{
+	float: left;
+}
+
+.box2{
+	float: right;
+}
+
+
+.blackcontainer9{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+
+}
+
+.h7{
+	float: right;
+}
+
+
