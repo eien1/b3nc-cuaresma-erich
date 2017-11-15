@@ -1,0 +1,55 @@
+ CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; /* to avoid overflow (horizontal scrollbar) */
+}
+
+
+/* Pic 1*/
+.container{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+}
+
+.greyboxes{
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+	float: left;
+	margin: 10px 1.16%;
+	position: relative;
+
+}
+
+.boxes{
+	margin-left: 15px;
+}
+
+
+.clear:after {
+	content: "";  /* empty string or invisible element */
+	clear: both;
+	display: block;
+}
+
+
+/*pic 2*/
+
+.container2{
+	background-color: black;
+	width: 650px;
+	height: auto;
+	padding: 10px;
+}
+
+.caption{
+	color: white;
+}
+
+.subcontainer{
+	border: 5px solid white;
+}
+

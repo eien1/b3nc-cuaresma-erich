@@ -1,4 +1,9 @@
 
+.wrapper{
+	width:80%;
+	margin:; 0 auto;
+}
+
 .blackcontainer{
 	background-color: black;
 	width: 700px;
@@ -14,8 +19,28 @@
 
 }
 
+.blackcontainer9{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	padding: 10px;
+	float: left;
+	display: inline-block;
+
+}
+
+
 
 .greyboxes {
+	height: 150px;
+	width: 150px;
+	background-color: grey;
+	float: left;
+	margin: 10px 1.16%;
+	position: relative;
+}
+
+.greyboxes2 {
 	height: 150px;
 	width: 150px;
 	background-color: grey;
@@ -55,17 +80,10 @@
 	height: 150px;
 	width: 265px;
 	background-color: grey;
-	float: left;
+	float: right;
 	position: relative;
 }
 
-.white-board-container{
-	border: 2px solid white;
-	height: 150px;
-	width: 150px;
-	padding: 10px 10px 10px 50px;
-
-}
 
 
 .clear:after {
@@ -86,7 +104,8 @@ textarea{
 
 .buttons{
 	margin-top: 10px;
-	float: right
+	float: right;
+	margin-right: 20px;
 
 
 }
@@ -111,12 +130,9 @@ textarea{
 }
 
 .box1{
-	float: left;
-}
-
-.box2{
 	float: right;
 }
+
 
 
 .blackcontainer9{
@@ -128,7 +144,114 @@ textarea{
 }
 
 .h7{
+	float: left;
+}
+
+.h29, .p9, .button9{
+	float: left;
+}
+
+.username{
+	color: white;
+	font-size: 12px;
+}
+
+.comment{
+	font-size: 10px;
+}
+
+.subcolumn{
+	margin-left: 50px;
+	border-left: 5px solid white;
+}
+
+.mainlink{
+	margin-left: 50px;
+}
+
+.tarea{
+	width: 90%;
+}
+
+.btngroup{
+	padding-right: 30px;
+}
+
+.val{
 	float: right;
 }
 
+.p7{
+	float: left;
+}
+
+.box{
+	float: right;
+}
+
+.block{
+	float: left;
+}
+
+.bord{
+	border: 10px solid white;
+
+}
+
+/*testing*/
+
+.column {
+	height: 170px;
+	width: 170px;
+	background-color: black;
+	float: left;
+	margin: 20px 1.16%;
+	position: relative;
+	border: 2px solid white;
+	padding: 10px 0px 20px 0px;	
+
+}
+
+.column2 {
+	height: 170px;
+	width: 170px;
+	float: left;
+	margin: 20px 1.16%;
+	position: relative;
+	
+	
+
+}
+
+
+.avatar{
+	width: 150px;
+	height: 150px;
+	background-color: grey;;
+	/*margin: 20px;*/
+	margin-left: 10px;
+	float: left;
+
+
+
+.block-with-text {
+	overflow: hidden;
+	position: relative;
+	/* font-size = 16px; 16px + 8px = 24px */
+	line-height: 1.2em; /*em = default font size */
+	text-align: justify;
+	max-height: 3.6em;
+	margin-right: -1em;
+	padding-right: 30px;
+}
+
+.username {
+	
+	margin-left: 30px;
+
+}
+
+.p2{
+	margin-left: 30px;
+}
 
