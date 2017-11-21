@@ -1,0 +1,155 @@
+.colorfg{
+	color: white;
+}
+
+.colorbg{
+	background-color: black;
+}
+
+.name{
+	background-color: mediumaquamarine;
+}
+
+.rgb {
+	background-color: rgb(102, 205, 170);
+}
+
+.rgba{
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+.hex{
+	background-color: #012;
+}
+
+.hsl{
+	background-color: hsl(0, 0%, 100%);
+}
+
+
+.hsla{
+	background-color: hsla(30, 50%, 70%, 0.5);
+}
+
+.opacity {
+	background-color: red;
+	opacity: .5;
+}
+
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.uppercase{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+.capitalize{
+	text-transform: capitalize;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.linethrough{
+	text-decoration: line-through;
+}
+
+.none{
+	text-decoration: none;
+}
+
+.lineheight{
+	line-height: 2;
+}
+
+.letterspacing{
+	letter-spacing: 3px;
+}
+
+.wordspacing{
+	word-spacing: 1em;
+}
+
+.alignleft{
+	text-align: left;
+}
+
+.alignright{
+	text-align: right;
+}
+
+.aligncenter{
+	text-align: center;
+}
+
+.alignjustify{
+	text-align: justify;
+}
+
+.indent{
+	text-indent: 2px;
+}
+
+.textshadow{
+	text-shadow: 10px 10px 20px black;
+}
+
+.localfont{
+	font-family: 'Times New Roman', 'Helvetica', 'Comic Sans', 'Arial', sans-serif;
+}
+
+@font-face{
+	font-family: 'unique'
+	src: url(../fonts/unique/Unique.ttf);
+}
+
+
+/* using true type fonts*/
+.downloadedfont{
+	font-family: 'unique'
+}
+
+
+.serif{
+	font-family: 'Georgia', serif;
+}
+
+.sanserif{
+	font-family: 'Arial', sans-serif;
+}
+
+.monospace{
+	font-family: 'Courier', monospace;
+}
+
+.cursive{
+	font-family: 'Comic Sans ms',cursive;
+}
+
+.fantasy{
+	font-family: 'Impact', fantasy;
+}
+
+.pixels{
+	font-size: 25px;
+}
+
+.percent{
+	font-size: 200%;
+}
+
+.ems{
+	font-size: 3em;  /* 1em = 16px*/
+}
