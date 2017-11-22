@@ -5,6 +5,8 @@
 /* removes default margin to document */
 body {
 	margin: 0;
+	 background-color: #f4f4f4;
+	 font: 15px/1.5 Arial, Helvetica, sans-serif;
 }
 
 .nav,
@@ -20,7 +22,23 @@ body {
 .logo {
 	width: 140px;
 	height: 140px;
-	background-color: darkgrey;
+	background-color: #35424a;
+	border: 5px solid #e8491d;
+	border-radius: 5%;
+}
+
+.logo span, .logo p{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+
+.logo span, .box span{
+   color: #e8491d;
+}
+
+.logo p{
+	color: white;
 }
 
 /*
@@ -30,10 +48,11 @@ body {
  */
 
 .nav {
-	background-color: #4E4E50;
+	background-color:#35424a;
 	height: 100%;
 	width: 200px;
 	position: fixed;
+	border-right: 5px solid #e8491d;
 }
 
 ul {
@@ -42,7 +61,7 @@ ul {
 
 ul > li {
 	list-style: none;
-	background-color: #1A1A1D;
+	background-color: #e8491d;
 	margin-bottom: 2px;
 	text-align: center;
 	line-height: 48px;
@@ -52,6 +71,11 @@ ul > li {
 ul > li > a {
 	text-decoration: none;
 	color: white;
+}
+
+ul a:hover{
+	color: #cccccc;
+	font-weight: bold;
 }
 
 .main {
@@ -66,23 +90,25 @@ ul > li > a {
  */
 
 .banner {
-	background-color: #1A1A1D;
+	background-color: #35424a;
 	position: relative;
 	min-height: 700px;
 }
 
 .banner h1{
-	color: #950740;
-	font-family: "COmic Sans ms", Georgia, Serif;
+	color: #fff;
 	font-size: 80px;
 }
 
 .banner p{
-	color:#6F2232;
+	color:#fff;
 }
 
+
+
 .box {
-	border: 5px solid white;
+	border-radius: 5%;
+	border: 5px solid #e8491d;
 	text-align: center;
 	width: 40%;
 	padding: 40px;
@@ -129,11 +155,15 @@ ul > li > a {
 	margin-left: 1.16%;
 	margin-right: 1.16%;
 	float: left;
+	text-align: center;
+	padding-top: 10px;
 }
+
+
 
 .services img,
 .gallery img {
-	width: 100%;
+	width: 50%;
 }
 
 .clear:after {
@@ -181,8 +211,9 @@ ul > li > a {
  */
 
 .footer {
-	background-color: #1A1A1D;
+	background-color: #35424a;
 	min-height: 70px;
+	color: #FFF;
 }
 
 .contact {

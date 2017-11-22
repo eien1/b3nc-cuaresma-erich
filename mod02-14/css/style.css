@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	background-color: #fff; /*white*/
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+
+body{
+	background-color: lightgrey;
+}
+
+.item1,
+.item2,
+.item4,
+.item5 {
+	width: 140px;
+	height: 140px;
+	background-color: lightblue;
+}
+
+.item2{
+	border-right: 10px solid darkblue;
+	border-left: 10px solid darkblue;
+}
+
+.item3{
+	border: 2px solid #000;
+	/*border-top-right-radius: 15%;
+	border-bottom-left-radius: 15%;*/
+	border-radius: 0 10px 0 10px;\
+	padding: 10px;
+	display: inline;
+}
+
+.item4,
+.item5 {
+ background-color: pink;
+ border-radius: 100%;
+ 
+}
+
+
+
+.item5{
+	text-align: center;
+	line-height: 130px;
+	color: #000;
+}
+
+.item6 {
+	width: 400px;
+	height: 600px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.item6 img{
+	width: 80px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.item7{
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	position: relative;
+}
+
+
+.item7 #pic1{
+	width: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.item7 #pic2{
+	width: 40px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.item8{
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	position: relative;
+/*	text-align: center;
+*/}
+
+
+.item8 #pic3{
+	width: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.item8 #pic4{
+	width: 40px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.item8 p{
+	position: absolute;
+	left: 35%;
+	top: 40%;
+
+}
+
+.item9 img{
+	width: 70px;
+	border-radius: 100%;
+}
+
+.item10{
+	height: 100px;
+	width: 400px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.item10 > img{
+	width: 100px;
+	border-radius: 50%;
+}
+
+.item10 > span{
+	line-height: 100px;
+	position: absolute;
+}
+
+.item11, .item12{
+	width: 400px;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.item11 > img, .item12 > img{
+	width: 50px;
+}
+
+.item11 > h2, .item12 > h2 > p{
+margin: 15px auto
+}
+
+.item12 div{
+	background-color: pink;
+}
+
+
+.item13{
+	width: 400px;
+}
+.item13 table,
+.item13 th,
+.item13 td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.item > th{
+	background-color: black;
+}
+
+
+
+
